@@ -103,6 +103,9 @@ const App = () => {
           <Typography className={classes.title} variant="h6" noWrap>
             <Link className={classes.link} to="/bookmarked">Bookmarked</Link>
           </Typography>
+          <Typography variant="h6" noWrap>
+            <a className={classes.link} target="_blank" rel="noreferrer" href="https://github.com/akshaygk/react-sample-api">Git Link</a>
+          </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
