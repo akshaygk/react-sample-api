@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component home page should render the App Component correctly 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <BrowserRouter>
+    <WithStyles(ForwardRef(AppBar))
+      position="static"
+    >
+      <WithStyles(ForwardRef(Toolbar))>
+        <WithStyles(ForwardRef(IconButton))
+          aria-label="open drawer"
+          className="makeStyles-menuButton-2"
+          color="inherit"
+          edge="start"
+        >
+          <Memo(ForwardRef(MenuIcon)) />
+        </WithStyles(ForwardRef(IconButton))>
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-title-3"
+          noWrap={true}
+          variant="h6"
+        >
+          Akshay's Shop
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-title-3"
+          noWrap={true}
+          variant="h6"
+        >
+          <Link
+            className="makeStyles-link-8"
+            to="/"
+          >
+            Home
+          </Link>
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          className="makeStyles-title-3"
+          noWrap={true}
+          variant="h6"
+        >
+          <Link
+            className="makeStyles-link-8"
+            to="/bookmarked"
+          >
+            Bookmarked
+          </Link>
+        </WithStyles(ForwardRef(Typography))>
+        <div
+          className="makeStyles-search-4"
+        >
+          <div
+            className="makeStyles-searchIcon-5"
+          >
+            <Memo(ForwardRef(SearchIcon)) />
+          </div>
+          <WithStyles(ForwardRef(InputBase))
+            classes={
+              Object {
+                "input": "makeStyles-inputInput-7",
+                "root": "makeStyles-inputRoot-6",
+              }
+            }
+            inputProps={
+              Object {
+                "aria-label": "search",
+              }
+            }
+            placeholder="Search…"
+          />
+        </div>
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(ForwardRef(AppBar))>
+    <nav
+      style={
+        Object {
+          "marginBottom": "20px",
+        }
+      }
+    />
+    <div>
+      <Switch>
+        <Route
+          path="/product/:id"
+        >
+          <Product />
+        </Route>
+        <Route
+          path="/bookmarked/"
+        >
+          <Bookmarked />
+        </Route>
+        <Route
+          path="/"
+        >
+          <Home />
+        </Route>
+      </Switch>
+    </div>
+  </BrowserRouter>
+</div>
+`;
